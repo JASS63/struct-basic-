@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct num 
+{
+    int n;
+    float b;
+    
+}a;
+
+  int main()
+{
+    printf("Enter the 1st number :");
+    scanf("%d",&a.n);
+    printf("Enter the 2nd number :");
+    scanf("%f",&a.b);
+    float sum=a.n+a.b;
+    printf("sum of two numbers = %.2f" , sum ); 
+    return 0;
+    
+}
